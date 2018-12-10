@@ -152,8 +152,8 @@ $("#5").click(function(){
         var myinst = new Instafeed({
           target: 'myinst',
           get: 'user',
-          userId: 1668751453,
-          accessToken: '1668751453.1677ed0.263a90bdbf3048e593bc2652c2a6a411',
+          userId: 5503732854,
+          accessToken: '5503732854.1677ed0.40d33af3776540e58beab92ac96b0f81',
           resolution: 'standard_resolution',
           limit: 9,
           sortBy: 'most-recent',
