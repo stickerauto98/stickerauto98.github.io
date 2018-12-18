@@ -4,7 +4,7 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "https://formspree.io/stickerauto98@mail.ru";
 
             $.ajax({
                 type: "POST",
@@ -30,7 +30,7 @@ $(function () {
 
     $('#contact-form2').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "https://formspree.io/stickerauto98@mail.ru";
 
             $.ajax({
                 type: "POST",
