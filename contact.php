@@ -1,8 +1,8 @@
 <?php
     
     // configure
-    $from = 'contact form <stickerauto98@mail.ru>';
-    $sendTo = 'contact form <stickerauto98@mail.ru>';
+    $from = 'contact form <stickerauto98@gmail.com>';
+    $sendTo = 'contact form <stickerauto98@gmail.com>';
     $subject = 'Новое сообщение с сайта.';
     $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
     $okMessage = 'Сообщение отправлено.';
