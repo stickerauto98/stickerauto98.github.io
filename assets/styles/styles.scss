@@ -35,7 +35,7 @@ section{
 /* ------ mobile logo -------- */
 
 #mobilelogo{
-  margin-top: 56px;
+  margin-top: 72px;
 }
 
 /* ------ about hover effect -------- */
@@ -52,4 +52,10 @@ section{
 .about-hover-effect i{
   color: mat-color($nglp-accent, A700);
 }
+
+.accent-color {
+  color: mat-color($nglp-accent, 700) !important;
+}
+
+.logo{font-size:1.01em;text-decoration: none;font-weight: bold}
 
