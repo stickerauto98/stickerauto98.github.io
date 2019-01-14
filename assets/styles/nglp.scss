@@ -8,7 +8,7 @@ $nglp-primary: mat-palette($mat-grey, 700, 700, 100);
 
 $nglp-accent:  mat-palette($mat-blue, A700);
 
-$nglp-warn:    mat-palette($mat-green, 500);
+$nglp-warn:    mat-palette($mat-red, 500);
 
 
 $nglp-theme: mat-dark-theme($nglp-primary, $nglp-accent, $nglp-warn);
@@ -19,7 +19,7 @@ $nglp-theme: mat-dark-theme($nglp-primary, $nglp-accent, $nglp-warn);
 .dark {
   $dark-primary: mat-palette($mat-grey, 100, 700, 100);
   $dark-accent:  mat-palette($mat-blue, A700);
-  $dark-warn:    mat-palette($mat-green, 500);
+  $dark-warn:    mat-palette($mat-red, 500);
 
   $dark-theme: mat-light-theme($dark-primary, $dark-accent, $dark-warn);
 
