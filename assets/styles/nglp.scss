@@ -4,9 +4,9 @@
 
 @include mat-core();
 
-$nglp-primary: mat-palette($mat-grey, 700, 700, 100);
+$nglp-accent: mat-palette($mat-grey, 700, 700, 100);
 
-$nglp-accent:  mat-palette($mat-blue, A700);
+$nglp-primary:  mat-palette($mat-blue, A700);
 
 $nglp-warn:    mat-palette($mat-red, 500);
 
@@ -17,8 +17,8 @@ $nglp-theme: mat-dark-theme($nglp-primary, $nglp-accent, $nglp-warn);
 
 //dark theme
 .dark {
-  $dark-primary: mat-palette($mat-grey, 100, 700, 100);
-  $dark-accent:  mat-palette($mat-blue, A700);
+  $dark-primary: mat-palette($mat-blue, A700);
+  $dark-accent:  mat-palette($mat-grey, 100, 700, 100 );
   $dark-warn:    mat-palette($mat-red, 500);
 
   $dark-theme: mat-light-theme($dark-primary, $dark-accent, $dark-warn);
