@@ -39,7 +39,7 @@ section{
 }
 
 /* ------ about hover effect -------- */
-
+/*
 .about-hover-effect{
   @include mat-elevation-transition;
   @include mat-elevation(8);
@@ -52,11 +52,12 @@ section{
 .about-hover-effect i{
   color: mat-color($nglp-accent, A700);
 }
-
-.accent-color {
+*/
+.logo {
   color: mat-color($nglp-accent, 700) !important;
 }
-
+#contact .material-icons{  color: mat-color($nglp-primary, 700) !important;
+}
 .logo{font-size:1.01em;text-decoration: none;font-weight: bold}
 
 *{-webkit-tap-highlight-color:rgba(0,0,0,0);}
