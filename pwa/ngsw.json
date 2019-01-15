@@ -1,0 +1,59 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/4.f8a824f624e7b2cbeeea.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.0906f03098e08be2dd9b.js",
+        "/polyfills.fb1a9a48fe4a9f1d83fd.js",
+        "/runtime.1c660b863adbbf5fb2d9.js",
+        "/styles.c33d3446bfe0b89aa5d8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/ngx-rocket-logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/4.f8a824f624e7b2cbeeea.js": "33a1026fd2a9b66468905a4a571706c5afd46d7b",
+    "/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "/index.html": "2790d4f1a00ccdfa72848749f762d8f2bf2ed1e9",
+    "/main.0906f03098e08be2dd9b.js": "d5a1475121612ca4abaa25b25de264b64268dc89",
+    "/polyfills.fb1a9a48fe4a9f1d83fd.js": "4ab98e11e44c4bc97507dfc711f8420a47d6f18e",
+    "/runtime.1c660b863adbbf5fb2d9.js": "bbcca9984bdf8746f393befa478345b883e7970e",
+    "/styles.c33d3446bfe0b89aa5d8.css": "2153eb11e05ce60149806f2ac23336a93a483552"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
