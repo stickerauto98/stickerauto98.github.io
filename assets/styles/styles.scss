@@ -52,11 +52,15 @@ section{
 .about-hover-effect i{
   color: mat-color($nglp-accent, A700);
 }
+
+
+#contact .material-icons{  color: mat-color($nglp-primary, 700) !important;
+}
+.mat-card{margin: 0!important}
 */
+
 .logo {
   color: mat-color($nglp-accent, 700) !important;
-}
-#contact .material-icons{  color: mat-color($nglp-primary, 700) !important;
 }
 .logo{font-size:1.01em;text-decoration: none;font-weight: bold}
 
